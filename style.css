@@ -1,0 +1,374 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.saying{
+    display: none;
+}
+
+.bgImage{
+    background-image: linear-gradient(to right, #00bfff , #0000ff);
+    margin: 2% 2% 2% 2%;
+
+}
+
+
+.logo { 
+
+    position:relative;
+    width: auto;
+    height: auto;
+}
+
+.Ellipse {
+position: absolute;
+margin-left: 13%;
+height: 400px;
+animation:  animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.Akhira {
+    position: absolute;
+    margin-top: 7%;
+    height: 300px;
+    margin-left: -27%;
+    width: auto;
+    height: 70%;
+    
+
+}
+.Dragonball {
+
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 45%;
+
+}
+
+.EventInfo { 
+    margin-top: -10%;
+    position: absolute;
+    margin-left: 33%;
+    color: white;
+}
+.january {
+    margin-top: 35%;
+    margin-left: -20px;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.pm {
+        font-size: 40px;
+        margin-left: -20px;
+        font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.uca{
+    margin-top: 13px;
+    margin-left: -20px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.WINTER{
+font-size: 20px;
+margin-left: -20px;
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+.designerName {
+position: absolute;
+margin-top: 27%;
+margin-left: 9%;
+font-size: 30px;
+
+}
+.leacture {
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 40%;
+ font-size: 150%;
+ color: white;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.About{
+    position: absolute;
+    margin-top: 32%;
+    font-size: 20px;
+    color: white;
+    margin-right: 50%;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    *{
+        margin: 1%;
+        padding: 1%;
+    }
+    
+    /* .bgImage{
+        background-image: linear-gradient(to right, #00bfff , #0000ff);
+    
+    }  */
+
+    .saying{
+        display: none;
+    }
+    .logo { 
+
+        position:relative;
+        width: 100px;
+        height: 100px;
+    }
+
+    .Ellipse {
+        position: absolute;
+        margin-left: 3%;
+        height: 120px;
+        animation:  animate 5s linear infinite;
+        }
+        
+        @keyframes animate{
+            0%{
+                transform: rotate(0deg);
+            }
+            0%{
+                transform: rotate(360deg);
+            }
+        }
+
+        .Akhira {
+            position: absolute;
+            margin-top: 30%;
+            height: 200px;
+            margin-left: -35%;
+            width: 200px;
+            
+        
+        }
+        .Dragonball {
+
+            position: absolute;
+            margin-top: 15%;
+            margin-left: 120PX;
+            height: 230px;
+            width:150px
+        
+        }
+        .january {
+            font-size: 7px;
+            font-family:Arial, Helvetica, sans-serif ;
+            margin-top: -10px;
+
+        }
+        
+        .pm {
+                font-size: 7px;
+                font-family:Arial, Helvetica, sans-serif ;
+                
+        }
+       
+        .uca{
+            margin-top: 7px;
+            font-size: 10px;
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+
+.EventInfo { 
+    margin-top: -20%;
+    position: absolute;
+   margin-left: 33%;
+   color: white;
+   font-size: 5px;
+}
+.line1{
+    width: 50px;
+
+}
+.line2{
+    width: 50px;
+
+}
+.WINTER{
+    font-size: 7px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+} 
+.designerName {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 3%;
+    font-size: 10px;
+    
+    }
+    .leacture {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 40%;
+       font-size: 50%;
+       color: white;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .About{
+        position: absolute;
+        margin-top: 60%;
+        font-size: 10px;
+        color: white;
+    
+    }  
+}
+
+.bgImage {
+    background: linear-gradient(278deg, #ffa000, #0049ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 74%}
+    50%{background-position:100% 27%}
+    100%{background-position:0% 74%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 74%}
+    50%{background-position:100% 27%}
+    100%{background-position:0% 74%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 74%}
+    50%{background-position:100% 27%}
+    100%{background-position:0% 74%}
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+
+@media print{
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        height: 297mm;
+        width: 210mm;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+    }
+    div.saying{
+        display: block;
+        color: aliceblue;
+        position: absolute;
+        width: 100%;
+        left: 52%;
+        top: 50%;
+        transform: translate(-52%, -50%);
+        text-align: center;
+    }
+  
+    .Ellipse {
+        position: absolute;
+        margin-left: 10%;
+        height: 70mm;
+       
+        }
+
+        .logo { 
+            position:relative;
+            width: 50mm;
+            height: 30mm;
+        }
+        .Akhira {
+            position: absolute;
+            margin-top: 15%;
+            height: 115mm;
+            margin-left: -30%;
+            width: 115mm; 
+        } 
+        .Dragonball {
+
+            position: absolute;
+            margin-top: 80%;
+margin-left: -1%;  
+   height: 120mm;
+            width:100mm
+        
+        }
+        .EventInfo { 
+            margin-top: -15%;
+            position: absolute;
+            margin-left: 32%;
+            color: white;
+        }
+        .january {
+            font-size: 30px;
+            font-family:Arial, Helvetica, sans-serif ;
+
+        }
+        .pm {
+            font-size: 30px;
+            font-family:Arial, Helvetica, sans-serif ;
+            
+    }
+    .uca{
+        margin-top: 7px;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+    .line1{
+        width: 50px;
+    
+    }
+    .line2{
+        width: 50px;
+    
+    }
+    .WINTER{
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif ;
+        
+    } 
+    .leacture {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 45%;
+     font-size: 150%;
+     color: white;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .designerName {
+        position: absolute;
+        margin-top: 42%;
+        font-size: 30px;
+        margin-left: 30%;
+        
+        }
+        .About{
+            display: none;
+        }
+       
+}
